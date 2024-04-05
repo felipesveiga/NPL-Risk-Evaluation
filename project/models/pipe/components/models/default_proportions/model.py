@@ -2,7 +2,7 @@ from pyspark.ml.pipeline import Model
 from pyspark.ml.param.shared import HasInputCols
 from pyspark.ml.util import DefaultParamsReadable, DefaultParamsWritable
 from pyspark import keyword_only
-from project.models.pipe.components.models.default_proportions._params import HasDefaultProportions
+from models.pipe.components.models.default_proportions._params import HasDefaultProportions
 from pyspark.sql import SparkSession
 from pyspark.sql.dataframe import DataFrame
 from typing import List, Dict, Union

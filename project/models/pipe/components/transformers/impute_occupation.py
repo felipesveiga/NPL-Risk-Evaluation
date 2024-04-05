@@ -1,7 +1,7 @@
 from pyspark.sql import DataFrame
 from pyspark.sql.functions import udf
 from pyspark.sql.types import StringType
-from project.models.pipe.components.transformers.base import _BaseTransformer
+from models.pipe.components.transformers.base import _BaseTransformer
 
 class ImputeOccupation(_BaseTransformer):
     '''
